@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Data 
 {
-    public readonly static Data Instance = new Data();
+    public readonly static Data data = new Data();
 
 	public int score = 0;
 }
