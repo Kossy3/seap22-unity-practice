@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TimeScore : MonoBehaviour
+public class Timer : MonoBehaviour
 {
     private Text scoreText = null;
     private float totalTime = 0f;
