@@ -9,7 +9,7 @@ public class GroundCheck : MonoBehaviour
     //地面と当たっているかのフラグ
     public bool isGround = false;
     //地面と触れたときにフラグをtrueに
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerStay2D(Collider2D col)
     {
         if (col.tag == groundTag) {
             isGround = true;
