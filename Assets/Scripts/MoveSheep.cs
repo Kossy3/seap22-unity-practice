@@ -35,12 +35,14 @@ public class MoveSheep : MonoBehaviour
         // 左に移動
         if (Input.GetKey (KeyCode.A)) {
             anim.SetBool("run", true);
+            anim.SetFloat("speed", speed);
             spriteRenderer.flipX = false;
             pos += new Vector2(-speed * Time.deltaTime, 0.0f);
         }
         // 右に移動
         if (Input.GetKey (KeyCode.D)) {
             anim.SetBool("run", true);
+            anim.SetFloat("speed", speed);
             spriteRenderer.flipX = true;
             pos += new Vector2(speed * Time.deltaTime, 0.0f);
         }
