@@ -2,27 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
 
 public class Score : MonoBehaviour
 {
+    private int myRank;
+    private int[] scoreRanking;
+
     public void Start()
     {
         int myScore = Data.data.score;
-        int[] scoreRanking = GetScoreRanking(myScore);
         
         Transform topThreeText = this.transform.Find("TopThree").transform;
         Transform myScoreText = this.transform.Find("MyScore").transform;
 
-        if (scoreRanking != null)
+        if (GetScoreRanking(myScore))
         {
             for (int i = 0; i < 3; i++)
             {
                 DisplayScore(topThreeText.GetChild(i).transform, i+1, scoreRanking[i]);
             } 
 
-            //ArrayはSystemのnamespaceから
-            DisplayScore(myScoreText, Array.IndexOf(scoreRanking, myScore), myScore);
+            DisplayScore(myScoreText, myRank, myScore);
         }
         else
         {
@@ -35,9 +35,19 @@ public class Score : MonoBehaviour
         }        
     }
 
-    private int[] GetScoreRanking(int score)
+    //通信失敗時、falseをreturn
+    private bool GetScoreRanking(int score)
     {
-        return null;
+        try 
+        {
+            //myRank = ;
+            //scoreRanking = ;
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
     }
 
     private void DisplayScore(Transform scoreText, int rank, int score)
