@@ -822,7 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -983,7 +983,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 20
+=======
+    m_FontSize: 24
+>>>>>>> 31f52bc735db562da0246bc844ef4480a6275587
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -994,7 +998,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3082\u3046\u4E00\u5EA6\u30D7\u30EC\u30A4\uFF01\uFF01"
+  m_Text: REPLAY!!
 --- !u!222 &1353576761
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1118,8 +1122,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 150, y: 0}
   m_SizeDelta: {x: 200, y: 50}
+=======
+  m_AnchoredPosition: {x: 0, y: 70}
+  m_SizeDelta: {x: 420, y: 70}
+>>>>>>> 31f52bc735db562da0246bc844ef4480a6275587
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1585939671
 MonoBehaviour:
@@ -1143,11 +1152,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 50
+=======
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+>>>>>>> 31f52bc735db562da0246bc844ef4480a6275587
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1201,8 +1218,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: -210}
   m_SizeDelta: {x: 200, y: 50}
+=======
+  m_AnchoredPosition: {x: 0, y: -60}
+  m_SizeDelta: {x: 200, y: 40}
+>>>>>>> 31f52bc735db562da0246bc844ef4480a6275587
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614290316
 MonoBehaviour:
