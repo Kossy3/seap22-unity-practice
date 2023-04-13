@@ -42,7 +42,8 @@ public class Score : MonoBehaviour
         {
             //myRank = ;
             //scoreRanking = ;
-            return true;
+            //return true;
+            return false;
         }
         catch
         {
